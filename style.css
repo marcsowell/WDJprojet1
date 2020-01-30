@@ -1,22 +1,9 @@
 
-/*
-@font-face
-{
-  font-family: roboto-black;
-  src: fonts/roboto-black.ttf;
-}
-
-@font-face 
-{
-    font-family: roboto-regular;
-    src: fonts/roboto-regular.tff;
-}
-*/
 body 
 {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  width: 100%;
 }
 
 
@@ -24,51 +11,53 @@ body
 /*header*/
 header
 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    z-index: 4;
-    position: fixed;
-    width: 100%;
-    height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  z-index: 4;
+  position: fixed;
+  width: 100%;
+  height: 90px;
 }
 
 header img
 {
-    width: 280px;
-    height: auto;
-    margin-left: -60px;
+  width: 280px;
+  height: auto;
+  margin-left: -60px;
 }
 
 header nav ul         
 { 
-    display: flex;
-    font-size: 1.2em;
-    list-style-type: none;  
+  display: flex;
+  font-size: 1.2em;
+  list-style-type: none;  
 }
- 
+
 header nav li
 {
-    padding-right:30px;      
+  padding-right:30px;      
 }   
-     
+
 header nav a
 {
-    text-decoration: none;
-    color: #1e1e1e;
+  text-decoration: none;
+  color: #1e1e1e;
 }
+.anchor { padding-top: 90px; }
+
 
 header a:hover
 {
-    border-top: 5px #54B8E8 solid;
-    padding-top: 28px;              
+  border-top: 5px #54B8E8 solid;
+  padding-top: 30px;              
 }
 
 .actif
 {
-    border-top: 5px #54B8E8 solid;
-    padding-top: 28px;    
+  border-top: 5px #54B8E8 solid;
+  padding-top: 30px;    
 }
 
 /*--------------------fin header------------------*/
@@ -76,113 +65,120 @@ header a:hover
 
 .page-presentation
 {
-    position: relative;
-    padding-top: 90px;
-    width: 100%;
-    overflow-x: hidden;
+  position: relative;
+  padding-top: 90px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .page-presentation img
 {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .trait-slider
 {
-    width: 10%;
-    height: 5px;
-    background-color: #54B8E8;
-    position: absolute;
-    bottom: 0.5%;
+  width: 10%;
+  height: 5px;
+  background-color: #54B8E8;
+  position: absolute;
+  bottom: 0.5%;
 }
 
 .bouton-slidergauche 
 {
-    color: black;
-    font-size: 3em;
-    position: absolute;
-    top:50%;
-    left:-35px;   
-    z-index: 1; 
-    background-color: rgba(24,24,24,0.5); 
-    border-radius: 50%;
+  color: black;
+  font-size: 3em;
+  position: absolute;
+  top:50%;
+  left:-35px;   
+  z-index: 1; 
+  background-color: rgba(24,24,24,0.5); 
+  border-radius: 50%;
 }
 
 .bouton-slidergauche i 
 {
-    padding: 20px;
-    color: white;
-    margin-left: 20px;
-    font-size: 25px;
+  padding: 20px;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
 }
 
 .bouton-sliderdroite i
 {
-    padding: 20px;
-    color: white;
-    margin-right: 20px; 
-    font-size: 25px;
+  padding: 20px;
+  color: white;
+  margin-right: 20px; 
+  font-size: 25px;
 }
 
 .bouton-sliderdroite 
 {
-    color: black;
-    font-size: 3em;
-    position: absolute;
-    top: 50%;
-    right: -35px;   
-    z-index: 1;
-    background-color: rgba(24,24,24,0.5); 
-    border-radius: 50% ;
+  color: black;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  right: -35px;   
+  z-index: 1;
+  background-color: rgba(24,24,24,0.5); 
+  border-radius: 50% ;
 }
 
 .presentation h1
 {
-    text-transform: uppercase;
-    font-size: 2.3em;
+  text-transform: uppercase;
+  font-size: 2.3em;
 }
 
 h1 span
 {
-    color: #54B8E8;
+  color: #54B8E8;
 }
 
 section h1
 {
-    text-align: left;
+  text-align: left;
 }
 
 .presentation
 {
-    position: absolute;
-    top: 32%;
-    left: 12%;
-    width: 30%;
-    color: white;
+  position: absolute;
+  top: 32%;
+  left: 12%;
+  width: 30%;
+  color: white;
 }
 
 .presentation p
 {
-    font-size: 1.1em;
-    text-align: left;
+  font-size: 1.1em;
+  text-align: left;
 }
 
 .bouton
 {
-    font-size: 1.7em;
-    border-bottom: 3px #54CFE8 outset; 
-    border-radius: 5px 5px;
-    text-align: center;     
-    background-color: #54B8E8;
-    width: 155px;
-    height: 40px;
-    margin-top:55px;
-    padding: 5px;
+  font-size: 1.7em;
+  border-bottom: 3px #54CFE8 outset; 
+  border-radius: 5px 5px;
+  text-align: center;     
+  background-color: #54B8E8;
+  width: 155px;
+  height: 40px;
+  margin-top:55px;
+  padding: 5px;
 }
 
 /* -------------------------------fin section 1------------------------------------------*/
 /*section 2*/
+
+#ancre2:target::before {
+  content: " ";
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+}
 
 section img
 {
@@ -192,250 +188,248 @@ section img
 
 .titre-section2 p
 {
-    width: 61%;
-    margin: auto;
-    margin-top: 2%;
+  width: 61%;
+  margin: auto;
+  margin-top: 2%;
 }
 
 section h2
 {
-    font-size: 3.2em;
-    text-transform: uppercase;
-    font-family: 'roboto';
+  font-size: 3.2em;
+  text-transform: uppercase;
+  font-family: 'roboto';
 }
 
 section 
 {
-    text-align: center;
+  text-align: center;
 }
 
 section p
 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .cercle-trait
 {
-    position: relative;
-    border-bottom: 1px grey solid;
-    width: 220px;
-    z-index: 1;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  border-bottom: 1px grey solid;
+  width: 220px;
+  z-index: 1;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .cercle-trait i
 {
-    position: absolute;
-    border: 1px white solid;
-    background-color: white;
-    border-radius: 50%;
-    padding: 6px; 
-    bottom: -15px;
-    color : #54B8E8;
+  position: absolute;
+  border: 1px white solid;
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px; 
+  bottom: -15px;
+  color : #54B8E8;
 }
 
 .service
 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
 }
 
 section h3   
 {            
-    text-align: left;
-    font-size: 1.9em;
-    font-family:'roboto';
+  text-align: left;
+  font-size: 1.9em;
+  font-family:'roboto';
 }
 
 .ecran
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-    width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  width:50%;
 }
 
 .right-side
 {
-    margin-top: -0.7%;
-    width:41%;
-    position: relative;
-    top: 150px;
+  margin-top: -0.7%;
+  width:41%;
+  position: relative;
+  top: 150px;
 }
 
 .right-side p
 {
-    text-align: justify;
-    display: block;
-    padding-right: 100px;
+  text-align: justify;
+  display: block;
+  padding-right: 100px;
 }
 
 .competence
 {
-    display: flex;
+  display: flex;
 }
 
 .icone
 {
-    position: relative;
-    top: 60px; 
-    margin-right: 20px;
+  position: relative;
+  top: 60px; 
+  margin-right: 20px;
 }
 
 .fa-chart-line ,.fa-chart-pie ,.fa-cubes           
 {
-    font-size: 2em;
-    color: #54B8E8;
-    border: 1px grey solid;
-    border-radius: 50%;
-    padding: 24px;
+  font-size: 2em;
+  color: #54B8E8;
+  border: 1px grey solid;
+  border-radius: 50%;
+  padding: 24px;
 }
 
 .rond-bleu i
 {
-    color: #54B8E8;     
-    position: absolute;
-    top: 25px;
-    right: -15px;
-    z-index: 1;  
-    border: 1px white solid;
-    background-color: white;
-    border-radius: 50%;
-    padding: 7px;
+  color: #54B8E8;     
+  position: absolute;
+  top: 25px;
+  right: -15px;
+  z-index: 1;  
+  border: 1px white solid;
+  background-color: white;
+  border-radius: 50%;
+  padding: 7px;
 }
 
 /*-------------------------------------fin section 2 ------------------------------------*/
 /* section 3*/
 
+#ancre3:target::before {
+  content: " ";
+  display: block;
+  height: 50px;
+  padding-top: -50px;
+}
 .portfolio
 {
-    width:100%;
-    background-color: #F8F8FF;
-    margin-top: 160px;
+  width:100%;
+  background-color: #F8F8FF;
+  margin-top: 160px;
 }
 
 .titre-section3 h2
 {
-    padding-top: 3%;
+  padding-top: 3%;
 }
 
 .titre-section3 p
 {
-    width: 56.5%;
-    margin: auto;
-    margin-top: 3%;
+  width: 56.5%;
+  margin: auto;
+  margin-top: 3%;
 }
 
 
 section nav
 {
-   text-align: center;
-   margin: 80px 0 80px 0%;
-   display: flex;
-   justify-content: center; 
-   position: relative;
-   right: 18px;
+ text-align: center;
+ margin: 80px 0 80px 0%;
+ display: flex;
+ justify-content: center; 
+ position: relative;
+ right: 18px;
 }
-                       
+
 section ul
 {
-    display: flex;  
-    height: 60px;  
+  display: flex;  
+  height: 60px;  
 }
 
 section nav li
 {
-    list-style: none; 
-    width: 115PX;
-    padding-top: 15px;
-    background-color:#E0E0E0;
-    border:1px #E0E0E0 solid;
-    position: relative;
+  list-style: none; 
+  width: 115PX;
+  padding-top: 15px;
+  background-color:#E0E0E0;
+  border:1px #E0E0E0 solid;
+  position: relative;
 }
 
 
 section a
 {
-    text-decoration: none;
-    color: black;
-    font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
 }
 
 .fleche i
 {
-    position: absolute;
-    bottom: -22px;
-    right: 45px;
-    font-size: 2.2em;
-    color: #4F93E8; 
-    visibility:hidden;
+  position: absolute;
+  bottom: -22px;
+  right: 45px;
+  font-size: 2.2em;
+  color: #4F93E8; 
+  visibility:hidden;
 }
 
 
 .gauche
 {
-    border-radius: 5px 0px 0px 5px;
-   /* background-color: #54B8E8;  
-    border-bottom: 2px #4F93E8 solid;*/
+  border-radius: 5px 0px 0px 5px;
+   
+ }
+
+ .droite
+ {
+  border-radius: 0px 5px 5px 0px;
 }
 
-.droite
-{
-    border-radius: 0px 5px 5px 0px;
-}
 
-/*.gauche a
-{
-   color: white;
-}
-
-.gauche i
-{
-   visibility: visible;
-}*/
-
-section li:hover 
-{
+   section li:hover 
+   {
     background-color: #54B8E8;  
     border-bottom: 2px #4F93E8 solid;
     visibility: visible;   
-}
-.actif1 
-{
+  }
+  .actif1 
+  {
     background-color: #54B8E8;  
     border-bottom: 2px #4F93E8 solid;
     visibility: visible;   
-}
-.portfolio li:hover a  
-{
+  }
+  .portfolio li:hover a  
+  {
     color: white;
-}
-.actif2
-{
-  color: white;
-}
+  }
+  .actif2
+  {
+    color: white;
+  }
+  li .actifi{
 
+   visibility: visible;
+ }
  .portfolio li:hover i 
-
-{                          
-    visibility: visible;
+ {                          
+  visibility: visible;
 } 
 
 /*figure*/
 
 .bloc-figure
 {
-    width: 80%;
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
-    margin: 10px auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-column-gap: 5px;
+  grid-row-gap:5px;
+  margin: 10px auto;
 }
 
 .bloc-figure img
@@ -447,171 +441,173 @@ section li:hover
 
 .bloc-figure span
 {
-    font-family: 'roboto';
-    font-size: 1.1em;
+  font-family: 'roboto';
+  font-size: 1.1em;
 }
 
 figure
 {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .active 
 {
-    visibility: visible;
+  visibility: visible;
 }
 
 
 .fa-eye
 {
-    font-size: 15px;
-    color: white;
-    border: 1px white solid;
-    border-radius: 50%;
-    padding: 8px;
-    background-color: #54B8E8;
-    position: absolute;
-    right : 8%;
-    bottom: 80%;
-    z-index: 1;
+  font-size: 20px;
+  color: white;
+  border: 1px white solid;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #54B8E8;
+  position: absolute;
+  right : 8%;
+  bottom: 72%;
+  z-index: 1;
 }
 
 figcaption
 {
-    visibility: hidden;
-    font-size:20px ;
-    width:100%;  
-    height: 35%;
-    margin-top: 10px;
-    padding-left: 8px;
-    padding-bottom: 0;
-    position: absolute;   
-    bottom: 1.5%;
-    text-align: left;
-    color: white;
-    background-color: rgba(24,24,24,0.5); 
+  visibility: hidden;
+  font-size:20px ;
+  width:100%;  
+  height: 35%;
+  margin-top: 10px;
+  padding-left: 8px;
+  padding-bottom: 0;
+  position: absolute;   
+  bottom: 1.5%;
+  text-align: left;
+  color: white;
+  background-color: rgba(24,24,24,0.5); 
 }
 
- figure:hover figcaption
+figure:hover figcaption
 {
-    visibility: visible;
+  visibility: visible;
 } 
 
 /* ---------------------------------------fin section 3-----------------------------*/
 /* section 4 */
 
+
+
 #contact
 {
-    position: relative;
+  position: relative;
 
 }
 
 .filtre-bleu
 {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    height: 740px; 
-    background-color: rgba(86, 192, 224, 0.25);
-    pointer-events: none;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 740px; 
+  background-color: rgba(86, 192, 224, 0.25);
+  pointer-events: none;
 }
 
 iframe
 {
-    width: 99%;
-    height: 740px;
-    z-index: 1;
-    border: 1px white solid;
+  width: 99%;
+  height: 740px;
+  z-index: 1;
+  border: 1px white solid;
 
 }
 
- .formulaire
+.formulaire
 {
-    border: 1px black solid;
-    width: 330px;
-    height: 550px;
-    padding-right: 30px;
-    background-color: rgba(255,255,255,0.8); 
-    z-index: 3;
-    position: absolute;
-    top: 12%;
-    right: 15%;
+  border: 1px black solid;
+  width: 330px;
+  height: 550px;
+  padding-right: 30px;
+  background-color: rgba(255,255,255,0.8); 
+  z-index: 3;
+  position: absolute;
+  top: 12%;
+  right: 15%;
 }
 
 .adresse p
 {
-   margin-top: 15px;
-   padding-left: 25px;
-   text-align: left;
+ margin-top: 15px;
+ padding-left: 25px;
+ text-align: left;
 }
 
 .titre-section4
 {
-    font-family: 'roboto';
-    font-size: 1.7em;
+  font-family: 'roboto';
+  font-size: 1.7em;
 }
 
 .titre-section4 h2
 {
-    font-size: 1.2em;
-    margin-top: 15px;
-    padding-left: 25px;
-    text-align: left;
-    text-transform: unset;
+  font-size: 1.2em;
+  margin-top: 15px;
+  padding-left: 25px;
+  text-align: left;
+  text-transform: unset;
 }
 
 .adresse span
 {
-    font-family: 'roboto';
+  font-family: 'roboto';
 }
 
 form
 {
-    margin-left: 23px;
+  margin-left: 23px;
 }
 
 form p
 {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 input
 {
-    width: 290px;
-    height: 25px;
-    padding-left: 10px;
-    font-size: 1em;   
+  width: 290px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 1em;   
 }
 
 textarea
 {
-    width: 290px;
-    height: 120px;
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size: 1em;
-    font-family: 'roboto';
+  width: 290px;
+  height: 120px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 1em;
+  font-family: 'roboto';
 }
 
 .envoie input
 {
-    width: 120px;
-    height: 45px;
-    background-color: #54B8E8;
-    color: white;
-    font-size: 1.3em;
-    border: 1px #54B8E8 solid;
-    border-radius: 5px 5px 0px 0px;
-    position: relative;
-    bottom: 5px;
-    right: 92px;
+  width: 120px;
+  height: 45px;
+  background-color: #54B8E8;
+  color: white;
+  font-size: 1.3em;
+  border: 1px #54B8E8 solid;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+  bottom: 5px;
+  right: 92px;
 } 
- 
+
 .envoie :hover
- {
-    border-bottom: 2px blue solid;  
- }
+{
+  border-bottom: 2px blue solid;  
+}
 
 /*-----------------------------------fin section 4---------------------------------------*/
 /*Responsive*/
@@ -620,349 +616,360 @@ textarea
 @media all and (min-width:1024px) and (max-width: 1400px) 
 {
 
-     figcaption
-     {
-        font-size: 15px;
-     }
-     .bloc-figure span
-     {
-        font-size: 15px;
-     }
+ figcaption
+ {
+  font-size: 15px;
+}
+.bloc-figure span
+{
+  font-size: 15px;
+}
 }
 
 
 @media all and (max-width: 1350px) 
 {
-    .presentation
-    {
-        width: 50%;
-    } 
-    section a
-     {
-        font-size: 1.2em;
-     }
-     section nav li
-     {
-         width: 90PX;
-         height: 30px;
-         padding-top: 5px;
-     } 
-     .fleche i
-     {
-        right: 35px;
-        font-size: 1.8em;
-        bottom: -19px;
-     }
+  .presentation
+  {
+    width: 50%;
+  } 
+  section a
+  {
+    font-size: 1.2em;
+  }
+  section nav li
+  {
+   width: 90PX;
+   height: 30px;
+   padding-top: 5px;
+ } 
+ .fleche i
+ {
+  right: 35px;
+  font-size: 1.8em;
+  bottom: -19px;
+}
 }
 
 @media all and (max-width: 1024px)
 {
-    header
-    {
-        flex-direction: column;
-        height: 180px;
-    }
-    header img
-    {
-      padding-top: 20px;
-    }
-    .page-presentation
-    {
-        padding-top: 180px;
-    }
+  header
+  {
+    flex-direction: column;
+    height: 180px;
+  }
+  header img
+  {
+    padding-top: 20px;
+  }
+  .page-presentation
+  {
+    padding-top: 180px;
+    height: 400px;
+
+  }
+  .page-presentation img{
+    object-fit: cover;
+    height: 398px;
+
+  } 
+  .trait-slider{
+    bottom: 0.3%;
+  }
 
 
-    .bouton-slidergauche, .bouton-sliderdroite
-    {
-        font-size: 1.4em;
-        top: 60%;
-        border-radius: 50px 50px;
-    }
-    .presentation
-    {
-       width: 70%; 
-       font-size: 0.8em;
-       top: 40%;
-    }
-    .bouton
-    {
-           width: 120px;
-           height: 30px;
-           margin-top: 20px;
-    }
-    section h2
-    {
-        font-size: 3em;
-    }
-    .service
-    {
-        flex-direction: column; 
-    }
-    .right-side
-    {
-        width: 80%;
-        padding-left: 40px;
-    }
-    .right-side p
-    {
-        padding-right: 40px;
-    }
-    .ecran
-    {
-        width: 100%;
-        margin-left: 0;
-    }
-    .bloc-figure
-    {
-        grid-template-columns: repeat(2,1fr);
-    }
-    .formulaire
-    {
-        right: 1%;
-        top:  15%; 
-    }
+  .bouton-slidergauche, .bouton-sliderdroite
+  {
+    font-size: 1.4em;
+    top: 60%;
+    border-radius: 50px 50px;
+  }
+  .presentation
+  {
+   width: 50%;
+   font-size: 0.8em;
+   top: 50%;
+ }
+ .bouton
+ {
+   width: 120px;
+   height: 30px;
+   margin-top: 20px;
+ }
+ section h2
+ {
+  font-size: 3em;
+}
+.titre-section2 p{
+  margin-top: 5%; 
+}
+.service
+{
+  flex-direction: column; 
+  padding-top: 2%;
+}
+.right-side
+{
+  width: 80%;
+  padding-left: 110px;
+  top: auto;
+}
+.right-side p
+{
+  padding-right: 40px;
+}
+.ecran
+{
+  width: 100%;
+  margin-left: 0;
+}
+.bloc-figure
+{
+  grid-template-columns: repeat(2,1fr);
+}
+.formulaire
+{
+  right: 1%;
+  top:  15%; 
+}
 }
 
 @media all and (max-width: 675px)
 {
-   
-     header a
-     {
-        font-size: 0.8em;
-     }   
-    .presentation
-    {
-        font-size: 0.6em;
-        top: 50%;
-    }
-    .bloc-figure
-    {
-        grid-template-columns: repeat(1,1fr);
-    }
-    .bouton
-    {
-        margin-top: 0;
-        width: 90px;
-        height: 20px;
-    }
-     .bouton-slidergauche, .bouton-sliderdroite
-    {
-        font-size: 0.9em;
-        top: 65%;
-    }
-    .bouton-slidergauche i
-    {
-        padding:10px;
-        margin-left: 30px;
-    }
-    .bouton-sliderdroite i
-    {
-        padding: 10px;
-        margin-right: 30px;
-    }
-    section a
-     {
-        font-size: 1.2em;
-     }
-    .formulaire
-    {
-       top: -555px;
-       left: 0; 
-       right: 0; 
-       margin-left: auto; 
-       margin-right: auto; 
-       width: 330px;
-    }
-    .portfolio
-    {
-        padding-bottom: 550px;
-    }
-    figcaption {
-    font-size: 15px;
-    visibility: visible;
+
+ header a
+ {
+  font-size: 0.8em;
+}   
+.presentation
+{
+  font-size: 0.6em;
+  top: 50%;
+}
+.bloc-figure
+{
+  grid-template-columns: repeat(1,1fr);
+}
+.bouton
+{
+  margin-top: 0;
+  width: 90px;
+  height: 20px;
+}
+.bouton-slidergauche, .bouton-sliderdroite
+{
+  font-size: 0.9em;
+  top: 65%;
+}
+.bouton-slidergauche i
+{
+  padding:10px;
+  margin-left: 30px;
+}
+.bouton-sliderdroite i
+{
+  padding: 10px;
+  margin-right: 30px;
+}
+section a
+{
+  font-size: 1.2em;
+}
+.formulaire
+{
+ top: -555px;
+ left: 0; 
+ right: 0; 
+ margin-left: auto; 
+ margin-right: auto; 
+ width: 330px;
+}
+.portfolio
+{
+  padding-bottom: 550px;
+}
+figcaption {
+  font-size: 15px;
+  visibility: visible;
 }
 }
 
 /* smartphone*/
 @media all and (max-width: 580px)
 
-   /* {
-     header
-      {
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 100%;
-      }
-      header img
-      {
-        width: 200px;
-        padding-right: 12px
-      }
-      header nav
-      {
-        margin-left: 0px;
-        display: flex;
-        align-items: center;
-        height: 100px;
-        width: 100%;
-      }
-      .page-presentation
-      {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        height: 230px;
-      
-      }
-      .page-presentation img 
-      {
-        width: 100%;
-        height: 100%;
-        }
-    */
-
-
-
-
-
-
-
-
-
 {
-    header
-    {
-        height: 150px;
-    }
-    header a
-    {
-        font-size: 0.7em;
-    }
-    header a:hover
-    {
-        border-top: 3px #54B8E8 solid;
-        padding-top: 13px;              
-    }
-    header img
-    {
-       margin-left: 1%;
+  header
+  {
+    height: 150px;
+  }
+  header a
+  {
+    font-size: 0.7em;
+  }
+  header a:hover
+  {
+    border-top: 3px #54B8E8 solid;
+    padding-top: 13px;              
+  }
+  header img
+  {
+   margin-left: 1%;
 
-    }
-    header nav li
-    {
-        padding-right: 10px;
-    }
-    header nav ul
-    {
-        margin-right: 28px;
-        margin-top: 8px;
-    }
+ }
+ header nav li
+ {
+  padding-right: 10px;
+}
+header nav ul
+{
+  margin-right: 28px;
+  margin-top: 8px;
+}
+.page-presentation img{
+  visibility: hidden;
+}
 
-    .actif
-    {
-        padding-top: 10px; 
-        border-top: 3px #54B8E8 solid;      
-    }
-    .trait-slider
-    {
-        height: 3px;
-        bottom: 4px;
-    }
-     .page-presentation
-    {
-        padding-top: 150px;
-    }
-     .bouton-slidergauche, .bouton-sliderdroite
-     {
-        top: 70%;
-     }
-     .presentation p
-     {
-        font-size: 11px;
-        text-align: center;
+.actif
+{
+  padding-top: 10px; 
+  border-top: 3px #54B8E8 solid;      
+}
+.trait-slider
+{
+  height: 3px;
+  bottom: 1px;
+  width: 100%;
+}
+.page-presentation
+{
+ height: 402px;
+ background-color: #E0E0E0;
+ padding-top: 150px;
+}
+.bouton-slidergauche, .bouton-sliderdroite
+{
+  top: 70%;
+  visibility: hidden;
+}
+.presentation p
+{
+  font-size: 16px;
+  text-align: left;
 
-     }
-     .presentation
-     {
-        width: 400px;
-        left: 7%;
-        top: 54%;
-        font-size: 0.4em; 
-     }
-     .presentation h1
-     {
-     	text-align: center;
-     }
-     .bouton
-     {
-        width: 60px;
-        height: 12px;
-        padding-top: 0;
-        display: inline-block;
-        margin-top: 10px;
-     }
-     .cercle-trait
-     {
-        margin-bottom: 25px;
-     }
-     .ecran img
-     {
-          width: 100%;
-     }
-     section a
-     {
-        font-size: 1em;
-     }
-     section nav
-     {
-        margin: 50px 0 0 0;
-     }
-     section nav li
-     {
-         width: 70PX;
-         height: 25px;
-         padding-top: 5px;
-     }
-     .fleche i
-     {
-        right: 25px;
-     } 
-     .formulaire
-     {
-        width: 280px;
-     }
-     input , textarea
-     {
-        width: 240px;
-        font-size: 0.9em;
-     }
-     .envoie input
-     {
-        bottom: 20px;
-        right: 70px;
-     }
-     section h2
-     {
-        font-size: 20px;
-     }
-     .right-side
-     {
-        padding-left: 8px;
-        width: 94%;
-     }
-     .right-side p
-     {
-        padding-right: 0px;
-        font-size: 1em;
-        width: 100%;
-     }
-     figcaption {
-    font-size: 15px;
-    visibility: visible;
+}
+.presentation
+{
+ left: 36%;
+ top: 50%;
+ transform: translate(-50%, -50px);
+ font-size: 0.4em;     }
+ .presentation h1
+ {
+  text-align: left;
+  font-size: 25px;
+}
+.bouton
+{
+  width: 60px;
+  height: 12px;
+  padding-top: 0;
+  display: inline-block;
+  margin-top: 10px;
+  visibility: hidden;
+}
+.section2{
+  padding-top: 10px;
+}
+.titre-section2 p{
+
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+.right-side{
+  margin-top: -0,7%;
+  position: relative;
+  top: auto;
+  height: 400px;
+}
+.titre-section3 p{
+
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+.titre-section3 h2 {
+  padding-top: 19%;
+}
+.cercle-trait
+{
+  margin-bottom: 25px;
+}
+.ecran img
+{
+  width: 100%;
+}
+section a
+{
+  font-size: 1em;
+}
+section nav
+{
+  margin: 50px 0 0 0;
+}
+section nav li
+{
+ width: 70PX;
+ height: 25px;
+ padding-top: 5px;
+}
+.fleche i
+{
+  right: 25px;
+} 
+.formulaire
+{
+  width: 280px;
+}
+input , textarea
+{
+  width: 240px;
+  font-size: 0.9em;
+}
+.envoie input
+{
+  bottom: 20px;
+  right: 70px;
+}
+section h2
+{
+  font-size: 23px;
+  text-align: left;
+  padding-left: 40px;
+}
+section h3{
+  text-align: left;
+  font-size: 1.2em;
+}
+.right-side
+{
+  padding-left: 8px;
+  width: 94%;
+}
+.right-side p
+{
+  padding-right: 0px;
+  font-size: 1em;
+  width: 100%;
+}
+figcaption {
+  font-size: 15px;
+  visibility: visible;
+}
+.fa-eye{
+  bottom: 50%;
 }
 }
 
